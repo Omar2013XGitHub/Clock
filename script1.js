@@ -20,6 +20,6 @@ function hello() {
     if (h + 12 > 12) {
         clock.innerHTML = `${h}:${m}:${s}PM`;
     }
-    setTimeout(hello, 100);
+    setTimeout(hello, 1000);
 }
 hello();
